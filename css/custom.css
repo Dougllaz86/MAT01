@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 
 .hero, section {
-  background-position: right bottom;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll, fixed;
@@ -10,6 +10,14 @@
 .hero h1, blockquote {
   font-family: 'Libre Baskerville', serif;
   color: white;
+}
+
+.hero figure {
+  max-width: 40%;
+}
+
+.hero figure img {
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, .3);
 }
 
 .legenda h6 {
